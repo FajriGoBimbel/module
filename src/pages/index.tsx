@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 export default function Remotes() {
@@ -7,5 +8,10 @@ export default function Remotes() {
     setFirstRender(false);
   }, []);
 
-  if (!firstRender) return <div>Remotes</div>;
+  if (!firstRender)
+    return (
+      <div>
+        <Link href="/">Home</Link>
+      </div>
+    );
 }
