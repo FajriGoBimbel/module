@@ -12,7 +12,7 @@ export default function Remotes() {
     return (
       <div>
         <Link href="/">Home</Link>
-        REMOTES
+        REMOTES Update
       </div>
     );
 }
